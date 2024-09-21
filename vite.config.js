@@ -13,6 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  // Set base to the repository name to ensure correct paths
-  base: process.env.NODE_ENV === "production" ? "/CVWebsite/" : "/",
+  base: '/', // Custom domain uses root path
 })
