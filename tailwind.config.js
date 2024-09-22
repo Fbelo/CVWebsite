@@ -9,7 +9,18 @@ export default {
     './src/**/*.ts',     
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        // Define custom colors here
+        primary: {
+          DEFAULT: '#FF5733',
+        },
+      },
+      fontFamily: {
+        kode: ['Kode Mono', 'monospace'],
+      },
+    },
+    
   },
   plugins: [],
 }

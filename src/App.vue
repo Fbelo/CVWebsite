@@ -5,10 +5,10 @@ import Main from './components/MainSection.vue'
 
 <template>
   <header class="fixed">
-    <Nav />
+    <Nav/>
   </header>
 
-  <main class="h-screen bg-neutral-200">
-    <Main />
+  <main>
+    <Main/>
   </main>
 </template>
