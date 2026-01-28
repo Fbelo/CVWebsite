@@ -18,9 +18,9 @@ coverage
 /cypress/screenshots/
 
 # Editor directories and files
-.vscode/*
-.vite/*
-!.vscode/extensions.json
+.vscode
+.vite
+
 .idea
 *.suo
 *.ntvs*
