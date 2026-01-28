@@ -1,6 +1,5 @@
 <script setup>
 import FirstScreen from './FirstScreen.vue'
-import AboutMe from './AboutMe.vue'
 </script>
 
 <template>
